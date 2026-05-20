@@ -23,10 +23,10 @@ bio: |-
 
 links:
   - icon: brands/qq
-    url: /photography/contacts/qq.png
+    url: https://didishiwoo.github.io/academic-cv/photography/contacts/qq.png
     label: QQ
   - icon: brands/weixin
-    url: /photography/contacts/wechat.png
+    url: https://didishiwoo.github.io/academic-cv/photography/contacts/wechat.png
     label: 微信
 awards:
   - title: 全国大学生生物医学工程创新设计竞赛 全国二等奖
