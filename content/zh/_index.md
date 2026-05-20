@@ -128,17 +128,17 @@ sections:
         <div class="photo-location">
           <h4 class="photo-location-title">安徽 · 黄山</h4>
           <div class="photo-grid">
-            <a href="/photography/安徽-黄山/DSC_7024-1.jpg" target="_blank" class="photo-item" title="黄山">
-              <img src="/photography/安徽-黄山/DSC_7024-1.jpg" alt="黄山" loading="lazy" />
+            <a href="/photography/huangshan/DSC_7024-1.jpg" target="_blank" class="photo-item" title="黄山">
+              <img src="/photography/huangshan/DSC_7024-1.jpg" alt="黄山" loading="lazy" />
             </a>
-            <a href="/photography/安徽-黄山/DSC_7032-1.jpg" target="_blank" class="photo-item" title="黄山">
-              <img src="/photography/安徽-黄山/DSC_7032-1.jpg" alt="黄山" loading="lazy" />
+            <a href="/photography/huangshan/DSC_7032-1.jpg" target="_blank" class="photo-item" title="黄山">
+              <img src="/photography/huangshan/DSC_7032-1.jpg" alt="黄山" loading="lazy" />
             </a>
-            <a href="/photography/安徽-黄山/DSC_7125-1.jpg" target="_blank" class="photo-item" title="黄山">
-              <img src="/photography/安徽-黄山/DSC_7125-1.jpg" alt="黄山" loading="lazy" />
+            <a href="/photography/huangshan/DSC_7125-1.jpg" target="_blank" class="photo-item" title="黄山">
+              <img src="/photography/huangshan/DSC_7125-1.jpg" alt="黄山" loading="lazy" />
             </a>
-            <a href="/photography/安徽-黄山/DSC_7133-1.jpg" target="_blank" class="photo-item" title="黄山">
-              <img src="/photography/安徽-黄山/DSC_7133-1.jpg" alt="黄山" loading="lazy" />
+            <a href="/photography/huangshan/DSC_7133-1.jpg" target="_blank" class="photo-item" title="黄山">
+              <img src="/photography/huangshan/DSC_7133-1.jpg" alt="黄山" loading="lazy" />
             </a>
           </div>
         </div>
@@ -146,14 +146,14 @@ sections:
         <div class="photo-location">
           <h4 class="photo-location-title">福建 · 平潭岛</h4>
           <div class="photo-grid">
-            <a href="/photography/福建-平潭岛/2025-0568.jpg" target="_blank" class="photo-item" title="平潭岛">
-              <img src="/photography/福建-平潭岛/2025-0568.jpg" alt="平潭岛" loading="lazy" />
+            <a href="/photography/pingtan/2025-0568.jpg" target="_blank" class="photo-item" title="平潭岛">
+              <img src="/photography/pingtan/2025-0568.jpg" alt="平潭岛" loading="lazy" />
             </a>
-            <a href="/photography/福建-平潭岛/2025-0697.jpg" target="_blank" class="photo-item" title="平潭岛">
-              <img src="/photography/福建-平潭岛/2025-0697.jpg" alt="平潭岛" loading="lazy" />
+            <a href="/photography/pingtan/2025-0697.jpg" target="_blank" class="photo-item" title="平潭岛">
+              <img src="/photography/pingtan/2025-0697.jpg" alt="平潭岛" loading="lazy" />
             </a>
-            <a href="/photography/福建-平潭岛/2025-0928.jpg" target="_blank" class="photo-item" title="平潭岛">
-              <img src="/photography/福建-平潭岛/2025-0928.jpg" alt="平潭岛" loading="lazy" />
+            <a href="/photography/pingtan/2025-0928.jpg" target="_blank" class="photo-item" title="平潭岛">
+              <img src="/photography/pingtan/2025-0928.jpg" alt="平潭岛" loading="lazy" />
             </a>
           </div>
         </div>
@@ -161,17 +161,17 @@ sections:
         <div class="photo-location">
           <h4 class="photo-location-title">湖北 · 武汉</h4>
           <div class="photo-grid">
-            <a href="/photography/湖北-武汉/DSC_3460-2.jpg" target="_blank" class="photo-item" title="武汉">
-              <img src="/photography/湖北-武汉/DSC_3460-2.jpg" alt="武汉" loading="lazy" />
+            <a href="/photography/wuhan/DSC_3460-2.jpg" target="_blank" class="photo-item" title="武汉">
+              <img src="/photography/wuhan/DSC_3460-2.jpg" alt="武汉" loading="lazy" />
             </a>
-            <a href="/photography/湖北-武汉/DSC_3564-21.jpg" target="_blank" class="photo-item" title="武汉">
-              <img src="/photography/湖北-武汉/DSC_3564-21.jpg" alt="武汉" loading="lazy" />
+            <a href="/photography/wuhan/DSC_3564-21.jpg" target="_blank" class="photo-item" title="武汉">
+              <img src="/photography/wuhan/DSC_3564-21.jpg" alt="武汉" loading="lazy" />
             </a>
-            <a href="/photography/湖北-武汉/DSC_3646-21.jpg" target="_blank" class="photo-item" title="武汉">
-              <img src="/photography/湖北-武汉/DSC_3646-21.jpg" alt="武汉" loading="lazy" />
+            <a href="/photography/wuhan/DSC_3646-21.jpg" target="_blank" class="photo-item" title="武汉">
+              <img src="/photography/wuhan/DSC_3646-21.jpg" alt="武汉" loading="lazy" />
             </a>
-            <a href="/photography/湖北-武汉/Image_1779285029567.jpg" target="_blank" class="photo-item" title="武汉">
-              <img src="/photography/湖北-武汉/Image_1779285029567.jpg" alt="武汉" loading="lazy" />
+            <a href="/photography/wuhan/Image_1779285029567.jpg" target="_blank" class="photo-item" title="武汉">
+              <img src="/photography/wuhan/Image_1779285029567.jpg" alt="武汉" loading="lazy" />
             </a>
           </div>
         </div>
@@ -179,20 +179,20 @@ sections:
         <div class="photo-location">
           <h4 class="photo-location-title">合肥 · 逍遥津</h4>
           <div class="photo-grid">
-            <a href="/photography/合肥-逍遥津/000004.jpg" target="_blank" class="photo-item" title="逍遥津">
-              <img src="/photography/合肥-逍遥津/000004.jpg" alt="逍遥津" loading="lazy" />
+            <a href="/photography/hefei/000004.jpg" target="_blank" class="photo-item" title="逍遥津">
+              <img src="/photography/hefei/000004.jpg" alt="逍遥津" loading="lazy" />
             </a>
-            <a href="/photography/合肥-逍遥津/000006.jpg" target="_blank" class="photo-item" title="逍遥津">
-              <img src="/photography/合肥-逍遥津/000006.jpg" alt="逍遥津" loading="lazy" />
+            <a href="/photography/hefei/000006.jpg" target="_blank" class="photo-item" title="逍遥津">
+              <img src="/photography/hefei/000006.jpg" alt="逍遥津" loading="lazy" />
             </a>
-            <a href="/photography/合肥-逍遥津/000042.jpg" target="_blank" class="photo-item" title="逍遥津">
-              <img src="/photography/合肥-逍遥津/000042.jpg" alt="逍遥津" loading="lazy" />
+            <a href="/photography/hefei/000042.jpg" target="_blank" class="photo-item" title="逍遥津">
+              <img src="/photography/hefei/000042.jpg" alt="逍遥津" loading="lazy" />
             </a>
-            <a href="/photography/合肥-逍遥津/000048.jpg" target="_blank" class="photo-item" title="逍遥津">
-              <img src="/photography/合肥-逍遥津/000048.jpg" alt="逍遥津" loading="lazy" />
+            <a href="/photography/hefei/000048.jpg" target="_blank" class="photo-item" title="逍遥津">
+              <img src="/photography/hefei/000048.jpg" alt="逍遥津" loading="lazy" />
             </a>
-            <a href="/photography/合肥-逍遥津/000049.jpg" target="_blank" class="photo-item" title="逍遥津">
-              <img src="/photography/合肥-逍遥津/000049.jpg" alt="逍遥津" loading="lazy" />
+            <a href="/photography/hefei/000049.jpg" target="_blank" class="photo-item" title="逍遥津">
+              <img src="/photography/hefei/000049.jpg" alt="逍遥津" loading="lazy" />
             </a>
           </div>
         </div>
