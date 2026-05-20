@@ -1,0 +1,22 @@
+main:
+  - name: 简介
+    url: /
+    weight: 10
+  - name: 科研
+    url: /#research
+    weight: 11
+  - name: 论文
+    url: /#papers
+    weight: 12
+  - name: 报告
+    url: /#talks
+    weight: 13
+  - name: 动态
+    url: /#news
+    weight: 14
+  - name: 经历
+    url: experience/
+    weight: 20
+  - name: 项目
+    url: projects/
+    weight: 30
