@@ -1,36 +1,6 @@
-en:
-  locale: en-us
-  contentDir: content/en
-  title: Dechen Xie - Academic Homepage
-  params:
-    description: Undergraduate researcher in Biomedical Engineering at Anhui Medical University, focusing on temporal interference stimulation, dielectric properties, and computational neuroscience.
-  menu:
-    main:
-      - name: Bio
-        url: /
-        weight: 10
-      - name: Research
-        url: /#research
-        weight: 11
-      - name: Publications
-        url: /#papers
-        weight: 12
-      - name: Talks
-        url: /#talks
-        weight: 13
-      - name: News
-        url: /#news
-        weight: 14
-      - name: Experience
-        url: experience/
-        weight: 20
-      - name: Projects
-        url: projects/
-        weight: 30
-
 zh:
   locale: zh-Hans
   contentDir: content/zh
-  title: 谢德晨 - 个人学术主页
+  title: 谢德晨 - 个人简历
   params:
     description: 安徽医科大学生物医学工程专业本科生，研究兴趣包括时域干涉刺激、介电特性与计算神经科学

@@ -2,122 +2,54 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dechen Xie
+  display: 谢德晨
   given: Dechen
   family: Xie
-  alternate: '谢德晨'
+  alternate: 'Dechen Xie'
   pronunciation: 'Xiè Déchén'
-  pronouns: he/him
-role: Undergraduate Researcher in Biomedical Engineering
-bio: ''
 affiliations:
-  - name: Anhui Medical University
+  - name: 安徽医科大学
     url: https://www.ahmu.edu.cn/
-  - name: School of Biomedical Engineering
+  - name: 生物医学工程学院
     url: https://bme.ahmu.edu.cn/
+bio: |-
+  安徽医科大学生物医学工程专业本科生（专业排名 11/119，GPA 3.57，四级 519/六级 488），具备一定的模拟电路调试、嵌入式开发与电磁场仿真基础。
+
+  科研经历：以第一作者身份在 IEEE EMBC 2025 国际会议作口头报告。主要利用磁共振多模态图像数据，在 COMSOL 软件中构建了个性化的头部各向异性电导率模型，并完成了相应的脑部电磁场有限元仿真量化分析。
+
+  硬件开发：主持一项省级大创项目，设计并调试了一款四通道脑刺激仪样机（基于增强型霍兰德恒流源电路，输出频率 1–100 kHz，电流误差 ≤ 1%），实现了基于 STM32 的信号时序控制与阻抗监测。
+
+  竞赛经历：曾获全国大学生电赛省级二等奖、全国大学生生物医学工程创新设计竞赛全国二等奖、大学生物理实验竞赛国家级二等奖。
+
 links:
-  - icon: at-symbol
-    url: mailto:allenwestwood28@gmail.com
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/AllenWestwood28
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/allenwestwood28
-interests:
-  - Temporal Interference Stimulation (TIS)
-  - Electrical Property Tomography
-  - Computational Neuroscience
-  - Neural Engineering
-  - Dielectric Spectroscopy
-education:
-  - degree: B.E. in Biomedical Engineering
-    institution: Anhui Medical University
-    start: 2023-09-01
-    end: 2027-06-30
-    summary: |
-      GPA: 3.57/4.0 | Rank: 11/119
-      Relevant coursework: Circuit Analysis (90), Digital Electronics (93), Digital Signal Processing (91),
-      Signals and Systems (86), Biomedical Measurement and Sensors (97), Probability and Statistics (91),
-      Analog Electronics, Electronic Design (100).
-    button:
-      text: Transcript
-      url: /uploads/transcript.pdf
-      icon: hero/arrow-down-tray
-experience:
-  - role: Research Assistant
-    org: Neural Engineering Lab, Anhui Medical University
-    start: 2024-09-01
-    summary: |
-      Conducting research on personalized anisotropic conductivity modeling for temporal interference stimulation (TIS).
-      Utilizing MRI data (MPRAGE, DTI) with NODDI model to estimate microstructural parameters and reconstruct
-      subject-specific conductivity tensors. Performing COMSOL finite element simulations to compare isotropic
-      vs. anisotropic conductivity models.
-    button:
-      text: EMBC 2025 Paper
-      url: /publications/embc-2025/
-      icon: hero/arrow-down-tray
-  - role: Project Lead (Provincial Innovation Project)
-    org: Anhui Medical University
-    start: 2025-06-01
-    summary: |
-      Leading the development of a 4-channel temporal interference stimulation system ("Brain Threshold").
-      Designed enhanced Howland voltage-controlled current source for 1-100kHz, 0-5mA output with ≤1% precision.
-      Developed STM32 embedded firmware with IIC communication, OLED display, and closed-loop current control.
-      Built PySide6-based PC control software with real-time monitoring. Applied for software copyright.
-skills:
-  - name: Programming & Tools
-    items:
-      - label: Python
-        level: 5
-      - label: C/C++
-        level: 4
-      - label: MATLAB
-        level: 4
-      - label: STM32 (Embedded)
-        level: 4
-      - label: COMSOL Multiphysics
-        level: 4
-      - label: PySide6/Qt
-        level: 4
-  - name: Research Methods
-    items:
-      - label: Finite Element Simulation
-        level: 4
-      - label: MRI Data Processing
-        level: 3
-      - label: Dielectric Spectroscopy
-        level: 3
-      - label: Statistical Analysis
-        level: 4
-languages:
-  - name: English
-    level: 4
-    label: CET-6 (488)
-  - name: Chinese
-    level: 5
-    label: Native
+  - icon: brands/qq
+    url: /photography/contacts/qq.png
+    label: QQ
+  - icon: brands/weixin
+    url: /photography/contacts/wechat.png
+    label: 微信
 awards:
-  - title: National Biomedical Engineering Innovation Design Competition, 2nd Prize (National)
-    awarder: Chinese Society of Biomedical Engineering
+  - title: 全国大学生生物医学工程创新设计竞赛 全国二等奖
+    awarder: 中国生物医学工程学会
     date: "2025-08-01"
-    summary: Awarded for "E-MASK" - an ocular meridian electrical pulse therapy device integrating AI diagnostic assistance.
-  - title: National Undergraduate Electronic Design Competition, 2nd Prize (Provincial)
-    awarder: Ministry of Education of China
+    summary: 作品"眼周经络电脉冲治疗仪（E-MASK）"，集成 AI 智能医疗辅助诊断系统。
+  - title: 全国大学生电子设计竞赛 省级二等奖
+    awarder: 教育部
     date: "2025-08-01"
-    summary: Circuit Model Exploration Device (Topic G) - developed FFT spectrum analysis and digital lock-in amplifier algorithms.
-  - title: National Physics Experiment Competition (University)
-    awarder: China University Physics Experiment Competition Committee
+    summary: 电路模型探究装置（G题），实现 FFT 频谱分析与数字锁相放大器算法。
+  - title: 全国大学生物理实验竞赛（校级）
+    awarder: 全国大学生物理实验竞赛组委会
     date: "2025-12-01"
-    summary: 'Dielectric Polarization: The Polarization Race in the Microscopic World - designed experiments and created C4D visualizations.'
-  - title: Zhang Xiqiao First-Class Scholarship
-    awarder: Anhui Medical University
+    summary: '"电介质极化：微观世界的极化竞赛"——设计实验并使用 C4D 制作三维可视化动画。'
+  - title: 张锡祺一等奖学金
+    awarder: 安徽医科大学
     date: "2024-09-01"
-    summary: Awarded for academic excellence in the 2023-2024 academic year.
-  - title: Zhang Xiqiao First-Class Scholarship
-    awarder: Anhui Medical University
+    summary: 2023-2024 学年校级一等奖学金。
+  - title: 张锡祺一等奖学金
+    awarder: 安徽医科大学
     date: "2025-09-01"
-    summary: Awarded for academic excellence in the 2024-2025 academic year.
-  - title: "'Challenge Cup' Competition, 1st Prize (University)"
-    awarder: Anhui Medical University
+    summary: 2024-2025 学年校级一等奖学金。
+  - title: '"挑战杯"竞赛 校级一等奖'
+    awarder: 安徽医科大学
     date: "2026-04-01"
-    summary: Awarded for innovation project on personalized TIS systems.
+    summary: TIS 个性化系统创新项目。

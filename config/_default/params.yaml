@@ -12,11 +12,11 @@ hugoblox:
   # Site-level branding (for people/profiles, use the author system in content/authors/)
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    name: "Dechen Xie"
-    organization: "Anhui Medical University"
+    name: "谢德晨"
+    organization: "allenwestwood"
     type: person
-    tagline: "Undergraduate Researcher in Biomedical Engineering"
-    description: "Personal academic homepage of Dechen Xie — undergraduate researcher in Biomedical Engineering at Anhui Medical University, focusing on temporal interference stimulation, dielectric properties, and computational neuroscience."
+    tagline: "生物医学工程本科生"
+    description: "谢德晨的个人简历主页——安徽医科大学生物医学工程专业本科生，研究方向包括时域干涉刺激、介电特性与计算生物电磁学。"
     social:
       twitter: ""
 
@@ -25,15 +25,15 @@ hugoblox:
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
+    # Mode: 'light' for professional academic look
+    mode: light
+    # Theme pack with academic feel
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: "blue"
       secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      neutral: "gray"
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -63,8 +63,8 @@ hugoblox:
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
-    # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "spacious"
+    # Spacing density for higher information density
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
@@ -81,10 +81,10 @@ hugoblox:
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
-    search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    search: false
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -98,7 +98,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -158,14 +158,14 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa # apa | mla | chicago | ieee
+      style: ieee # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: true
+    enable: false
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal

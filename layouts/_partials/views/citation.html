@@ -1,0 +1,70 @@
+{{ $item := .item }}
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+{{ $external_url := $item.Params.external_link | default "" }}
+{{ $pages := $item.Params.pages | default "" }}
+{{ $authors := $item.Params.authors }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "ieee" }}
+
+    {{ if $authors }}
+      {{ $len := len $authors }}
+      {{ range $i, $author := $authors }}
+        {{ if eq $i (sub $len 1) }}
+          {{ if gt $len 2 }}, {{ end }}and {{ $author }}
+        {{ else }}
+          {{ if gt $i 0 }}, {{ end }}{{ $author }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    ,
+    {{ if $external_url }}
+      "<a href="{{ $external_url | safeURL }}" target="_blank" rel="noopener" class="underline">{{ $item.Title }}</a>,"
+    {{ else }}
+      "{{ $item.Title }},"
+    {{ end }}
+    {{ if $item.Params.publication }}
+      {{- $item.Params.publication | markdownify -}},
+    {{ end }}
+    {{ $year }},
+    {{ if $pages }}pp. {{ $pages }}.{{ end }}
+
+  {{ else if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
+
+    <span class="article-metadata li-cite-author">
+      {{ partial "page_metadata_authors" $item }}.
+    </span>
+    ({{- $year -}}).
+    {{ if $external_url }}
+      <a href="{{ $external_url | safeURL }}" target="_blank" rel="noopener" class="underline">{{ $item.Title }}</a>.
+    {{ else }}
+      <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.
+    {{ end }}
+    {{ if $item.Params.publication_short }}
+      {{- $item.Params.publication_short | markdownify -}}.
+    {{ else if $item.Params.publication }}
+      {{- $item.Params.publication | markdownify -}}.
+    {{ end }}
+
+  {{ else }}
+
+    <span class="article-metadata li-cite-author">
+      {{ partial "page_metadata_authors" $item }}.
+    </span>
+    {{ if $external_url }}
+      <a href="{{ $external_url | safeURL }}" target="_blank" rel="noopener">{{ $item.Title }}</a>.
+    {{ else }}
+      <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
+    {{ end }}
+    {{ if $item.Params.publication_short }}
+      {{- $item.Params.publication_short | markdownify -}},
+    {{ else if $item.Params.publication }}
+      {{- $item.Params.publication | markdownify -}},
+    {{ end }}
+    {{- $year -}}.
+
+  {{ end }}
+</div>
